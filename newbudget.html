@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="index.js"> </script>
+    <link href="newbudget.css" rel="stylesheet" type="text/css">
+    <h1>Budget<img src="logo1.png" class="logo"/>Buddy</h1> 
+    <h2>Budget Output</h2>
+</head>
+<body>
+<p id="budgetting"></p>
+
+<p>
+<script>
+      let x = localStorage.getItem("here");
+        document.getElementById("budgetting").innerHTML = "This is your budget: $" + x;
+        console.log(x);
+  
+    </script>
+    </p>
+    <img src="piggy.png" class="piggy" width="300" height="220"/>
+</body>
+</html>
+
+

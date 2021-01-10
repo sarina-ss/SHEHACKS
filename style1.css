@@ -1,0 +1,171 @@
+body{
+    background-color:rgba(213, 224, 221, 0.692);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(76, 82, 80);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+h1 {
+    font-size:80px;
+    color:rgb(76, 82, 80);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(102, 205, 171, 0.692);
+    
+    height:120px;
+    position: static;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-top:5px;
+    text-align:center;
+}
+
+.logo{
+    width: 180px;
+    height: 120px;
+    position:center;
+
+}
+.prof{
+    width:200;
+    height:277;
+}
+h2{
+    color:rgb(80, 165, 137);
+    background-color:rgba(102, 205, 171, 0.219);
+    font-size:35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    text-align:center;
+    margin:10px 25px;
+    padding-left:45px;
+    border:rgb(76, 82, 80);
+
+}
+
+h4{
+    color:rgb(80, 165, 137);;
+    text-align:center;
+    font-size:25px;
+}
+p{
+    margin:10px 150px;
+    color:rgb(76, 82, 80);
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+hr{
+    margin:10px 600px;
+        border:none;
+        border-top:1px dashed rgb(76, 82, 80);
+        color:rgb(76, 82, 80);
+        background-color:#fff;
+        height:1px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 75px;
+  }
+  
+@media screen and (max-width: 650px) {
+    .column {
+      width: 50%;
+      display: block;
+    }
+  }
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+.container {
+    padding: 0 7px;
+  }
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.school {
+    color: grey;
+}
+.pig{
+    width: 40%;
+    height: 40%; 
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    background-color: mediumaquamarine;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: mediumaquamarine;
+  }
